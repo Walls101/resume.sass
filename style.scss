@@ -1,11 +1,13 @@
-$header-color: #D3D3D3;
-$top-header: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+$header-color: #ffffff;
+$top-header: rgba(48, 46, 46, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 $header-font: #808080;
 $bot-right: #cecbcb;
 $pad: 5px;
+$font-style: Arial, Helvetica, sans-serif;
 
 body{
-    background-color: aqua;
+    background-color: rgb(18, 18, 97);
+    font-family: $font-style;
 }
 
 .page{
@@ -20,11 +22,14 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url(./Images/custom-jessica-lewis-creative-583848.jpg);
+    background-repeat: no-repeat;
+    padding-right: 100px;
 }
 
 .profile-img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: 10px;
 }
 
@@ -32,6 +37,18 @@ body{
     border-radius: 50%;
     max-width: 100%;
     max-height: 100%;
+    border: 2px double;
+}
+
+.name{
+    color: $header-color;
+    text-shadow: 2px 2px #000000;
+    display: flex;
+    flex-direction: column;
+    line-height: 30%;
+}
+.name h1{
+    font-size: 400%;
 }
 
 .bottom {
