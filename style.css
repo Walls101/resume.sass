@@ -57,13 +57,14 @@ body {
   justify-content: space-around;
   height: auto;
   width: 600px;
-  margin: 25px;
+  margin-left: 25px;
 }
 
 .right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: #cecbcb;
 }
 
 /*# sourceMappingURL=style.css.map */

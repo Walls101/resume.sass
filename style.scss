@@ -51,6 +51,12 @@ body{
     font-size: 400%;
 }
 
+// h3 {
+//     border-bottom: 5px solid black; 
+//     width: 25%;
+      
+// }
+
 .bottom {
     display: flex;
     flex-direction: row;
@@ -63,11 +69,16 @@ body{
     justify-content: space-around;
     height: auto;
     width: 600px;
-    margin: 25px;
+    margin-left: 25px;
 }
 
 .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: $bot-right;
 }
+// finish making the margin for the right side.
+// .skills .work-xp {
+//     margin-left: 25px;
+// }
