@@ -11,7 +11,7 @@ $font-style: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(18, 18, 97);
+    background-image: url(/Images/pexels-jimmy-liao-11720351.jpg);
     font-family: $font-style;
 }
 
@@ -56,11 +56,27 @@ body{
     font-size: 400%;
 }
 
-// h3 {
-//     border-bottom: 5px solid black; 
-//     width: 25%;
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.icon a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+h3 {
+    border-bottom: 5px solid black; 
+    width: 50px;
       
-// }
+}
 
 .bottom {
     display: flex;
@@ -73,14 +89,16 @@ body{
     flex-direction: column;
     justify-content: space-around;
     height: auto;
-    width: 400px;
+    width: 700px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     @include left-space();
 }
 
 .right{
     @extend .left;
     height: auto;
-    width: 1000px;
+    width: 900px;
     background-color: $bot-right;
     
 }
